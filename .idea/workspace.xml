@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d88dcb82-08c7-4367-b525-3c0d1597299d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
+  <component name="ProjectId" id="1kF0bOxpY3TgCoMmolvG7Wh3Zf0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d88dcb82-08c7-4367-b525-3c0d1597299d" name="Default Changelist" comment="" />
+      <created>1605281102497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605281102497</updated>
+      <workItem from="1605281103594" duration="8097000" />
+      <workItem from="1605454111008" duration="6046000" />
+      <workItem from="1605466695871" duration="10519000" />
+      <workItem from="1605527512232" duration="24000" />
+      <workItem from="1605527550322" duration="3135000" />
+      <workItem from="1605548647179" duration="85000" />
+      <workItem from="1605548736792" duration="10430000" />
+      <workItem from="1605616936385" duration="1730000" />
+      <workItem from="1605651622073" duration="599000" />
+      <workItem from="1605710573975" duration="9256000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1687" y="246" key="#CLI_Interpreters" timestamp="1605466914988">
+      <screen x="-1920" y="44" width="1920" height="1080" />
+    </state>
+    <state x="-1687" y="246" key="#CLI_Interpreters/0.0.1440.900/-1920.44.1920.1080@-1920.44.1920.1080" timestamp="1605466914988" />
+    <state x="1053" y="25" width="387" height="875" key="#Inspections" timestamp="1605652117669">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="1053" y="25" width="387" height="875" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1605652117669" />
+    <state x="-1583" y="234" key="#PHP" timestamp="1605466927858">
+      <screen x="-1920" y="44" width="1920" height="1080" />
+    </state>
+    <state x="-1583" y="234" key="#PHP/0.0.1440.900/-1920.44.1920.1080@-1920.44.1920.1080" timestamp="1605466927858" />
+    <state x="244" y="0" width="1192" height="650" key="NewPhpFileDialog" timestamp="1605720498498">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="244" y="0" width="1192" height="650" key="NewPhpFileDialog/0.0.1440.900/-1920.44.1920.1080@0.0.1440.900" timestamp="1605720498498" />
+    <state x="430" y="267" width="1192" height="650" key="dock-window-1" timestamp="1605727067290">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="-618" y="44" width="618" height="1080" key="dock-window-1/0.0.1440.900/-1920.44.1920.1080@-1920.44.1920.1080" timestamp="1605467213526" />
+    <state x="1076" y="0" width="364" height="900" key="dock-window-1/0.0.1440.900/-1920.44.1920.1080@0.0.1440.900" timestamp="1605720600512" />
+    <state x="996" y="0" width="444" height="900" key="dock-window-1/0.0.1440.900/1440.157.1920.1080@0.0.1440.900" timestamp="1605529473215" />
+    <state x="430" y="267" width="1192" height="650" key="dock-window-1/0.0.1440.900@0.0.1440.900" timestamp="1605727067290" />
+  </component>
+</project>

@@ -1,0 +1,133 @@
+package Exercices;
+
+public class Exo2 {
+
+	public static void main(String[] args) {
+		
+
+		int x, n, i, nombre, j;
+		int t [];
+		int c [];
+		t = new int [50];
+		c = new int [50];
+		
+
+		
+
+		
+
+		do {
+			n = SaisiePourTous.lire_int("Saisir un nombre supérieur à 3:");
+		}
+		while (n < 3);
+		
+
+		
+
+		
+
+		for (i = 0; i < n; i++) t[i] = SaisiePourTous.lire_int("Saisir une valeur");
+		
+
+		for (i = 0; i < n; i++) c[i]= 0;
+		
+
+		j = 0;
+		i = 0;
+		
+
+		
+
+		
+
+		while(j<n)
+		{
+			i = j + 1;
+			
+
+			while(i <= (n - 1)) 
+			{
+				
+
+				if(t[j] < t[i]) 
+				{
+					c[i] = c[i] + 1;
+				}
+				else 
+				{
+					c[j] = c[j] + 1;
+				}
+				
+
+				i++;
+
+			}
+			
+
+			j++;
+		}
+		
+
+		
+
+		
+
+		for(j = 0; j < n; j++) 
+		{
+			System.out.print(c[j] + "  ");
+		}
+		
+
+		
+
+		System.out.println();
+		nombre = 0;
+		
+
+		
+
+		while(nombre <= (n - 1)) 
+		{
+			j = 0;
+			
+
+			while(c[j] != nombre) 
+			{
+				j++;
+			}
+			
+
+			x = t[nombre];
+			t[nombre] = t[j];
+			t[j] = x;
+			
+
+			x = c[nombre];
+			c[nombre] = c[j];
+			c[j] = x;
+			
+
+			nombre = nombre + 1;
+			j = nombre + 1;
+
+		}
+		
+
+		
+
+		System.out.println();
+		
+
+		for(j = 0; j < n; j++) 
+		{
+			System.out.print(t[j] + "  ");
+		}
+
+		
+
+	}
+		
+
+	
+
+}

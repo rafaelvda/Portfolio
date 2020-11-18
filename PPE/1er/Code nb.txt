@@ -1,0 +1,133 @@
+package Games;
+
+public class Game1 {
+
+	public static void main(String[] args) {
+		
+
+		
+
+		//Declaration des variables
+		
+
+		int NbSecret, NbEssaie, NbJoueur;
+		boolean trouver;
+
+		
+
+		//Règles du jeu et consignes
+		
+
+		System.out.println("_________________Bienvenue dans le jeu du nombre secret !_________________");
+		System.out.println();
+		System.out.println("Un premier joueur entre un chiffre secret et un autre tente de le deviner.");
+		System.out.println();
+		System.out.println("_____________Attention vous n'avez que 10 essais au maximum !_____________");
+		System.out.println();
+		System.out.println("C'est parti...");
+
+
+		
+
+		//Saisie du nombre secret à trouver avec conditions entre 1 et 100
+		
+
+		NbSecret = SaisiePourTous.lire_int("Veuillez saisir un nombre secret entre 1 et 100 : ");
+		
+
+		if (NbSecret > 100 || NbSecret < 1)
+		{
+			System.out.println("Erreur de saisie.");
+			System.out.println();
+			NbSecret = SaisiePourTous.lire_int("Veuillez saisir un nombre secret entre 1 et 100");
+		}
+		
+
+		
+
+		//Saisie de la proposition avec conditions  entre 1 et 100
+		
+
+		NbJoueur = SaisiePourTous.lire_int("Tentez de deviner le nombre secret entre 1 et 100...");
+		
+
+		if (NbJoueur > 100 || NbJoueur < 1)
+		{
+			System.out.println("Erreur de saisie.");
+			System.out.println();
+			NbJoueur = SaisiePourTous.lire_int("Tentez de deviner le nombre secret entre 1 et 100...");
+		}
+		
+
+		
+
+		//Initialistion du nombre d'essai et du boolean
+		
+
+		NbEssaie = 0;	
+		trouver = false;
+		
+
+		while (trouver != true && NbEssaie <= 9)
+				{
+			
+
+			
+
+		//Boucle pour trop grand/petit/gagné et bonne conditions entre 1 et 100
+			
+
+			while (NbJoueur > 100 || NbJoueur < 1 )
+			{
+				System.out.println("Erreur de saisie.");
+				System.out.println();
+				NbJoueur = SaisiePourTous.lire_int("Tentez de deviner le nombre secret entre 1 et 100...");
+			}
+			
+
+				if (NbSecret < NbJoueur)
+				{
+					System.out.println("Trop grand ! ");
+					NbJoueur = SaisiePourTous.lire_int("Essayer encore de deviner le nombre secret... ");
+				}
+				else if(NbSecret > NbJoueur)
+				{
+					System.out.println("Oups trop petit ! ");
+					NbJoueur = SaisiePourTous.lire_int("Essayer encore de deviner le nombre secret... ");
+				}
+				else
+				{
+					trouver = true;
+					System.out.println("Bravo ");
+				}
+				
+
+				NbEssaie++;
+			
+
+				}
+		
+
+		
+
+		//Message de réussite ou échec si les essais sont supérieur à 10
+		
+
+		if (NbEssaie >=  9)
+		{
+			System.out.println("Perdu désolé.");
+			System.out.println();
+			System.out.println("Vous avez jouer en " + NbEssaie + " tentatives.");
+		}
+		else {
+			System.out.println("Félicitations !");
+			System.out.println();
+			System.out.println("Vous avez trouver en " + NbEssaie + " tentatives.");
+		}
+				
+
+
+	}
+	
+
+}

@@ -1,0 +1,149 @@
+/* Menu */
+.menu nav{
+    width: 100%;
+    position: fixed;
+    transition: .5s;
+    z-index: 1000;
+}
+
+/* accueil */
+.couv{
+    background: url('Images/fond.jpg');
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    padding: 25px;
+}
+/*
+.title {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding: 100px;
+}
+.sub{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}*/
+.title {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 80px;
+    letter-spacing: 2px;
+}
+.sub {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 900;
+    margin: 0;
+    line-height: 1;
+    color: white;
+}
+
+/* A Propos */
+.media-body{
+    text-align: justify;
+    padding: 20px;
+}
+.media-body h1{
+    margin-bottom: 50px;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Stages */
+.stages{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+}
+.uneAn{
+    width: 50%;
+    height: 100%;
+    background: #82C0CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stage{
+    width: 50%;
+    height: 100%;
+    background: #489FB5;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deuxAn{
+    width: 50%;
+    height: 100%;
+    background: #82C0CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Veilles */
+.slider{
+    border: 1px solid black;
+}
+.carousel-caption{
+    position: center;
+}
+
+/* Contact */
+.contact{
+    display: flex;
+    justify-content: center;
+    /*box-shadow: 10px 10px 10px grey;*/
+    border: 1px solid black;
+}
+.image img{
+    width: 800px;
+}
+.formContact{
+    width: 700px;
+    padding: 50px;
+}
+.formContact h1{
+    padding-bottom: 50px;
+}
+
+/* PPE 1er */
+.about{
+    padding: 60px;
+}
+.test{
+    padding: 50px;
+}
+
+/* footer */
+.media{
+    padding: 50px;
+}
+.footer{
+    background-color: #333333;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.social img{
+    width: 50px;
+    height: 50px;
+}
+

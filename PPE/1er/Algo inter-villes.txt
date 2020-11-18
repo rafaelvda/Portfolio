@@ -1,0 +1,40 @@
+Algorithme «  Distances Intervilles »
+Variable indicées : Distance [10,10] de type numérique
+                                Ville [10] de type CC
+
+Variables : CC = VilleDép, VilleArr, Rep
+                  Numérique = I,J, Dist
+Début
+
+(* On considère que la matrice et le vecteur sont pré-remplis*)
+
+ Répéter
+
+Afficher »Quelle  est la ville de départ ? »
+Saisir VilleDép
+Afficher »Quelle  est la ville d’arrivée ? »
+Saisir VilleArr
+I1
+
+Tant que (I <= 10) et  (Ville{I] <> VilleDép)
+   I  I+1
+FinTantque
+
+          Si I > 10 Alors Afficher »La ville de départ saisie est inexistante « 
+             Sinon J1
+                       Tant que (J <= 10) et  (Ville{I] <> VilleArr)
+  			 J  J+1
+                       FinTantque
+
+                                Si J>10 Alors Afficher »Ville d’arrivée saisie inexistante «  
+                                             Sinon Si J  > I  Alors   Dist  Distance[ I, J ]
+                                                                     Sinon  Dist  Distance[ J, I ] 
+                                                        Fsi
+                                              Afficher « La distance entre   les 2    villes est   de « , Dist, »KMS
+Fsi
+        Fsi
+       Afficher «  Autre distance ? (Oui/Non) »
+       Saisir Rep
+
+Jusqu’à Rep = « Non »
+Fin

@@ -1,0 +1,18 @@
+Avec le plan de bâtiment (sur 2 étages) avec des bureaux que j'ai fournis.
+Vous devez concevoir un dossier d’architecture réseau afin d’étudier et fixer tout le travail que devront faire les techniciens pour mettre en place un réseau informatique simple (en prenant en compte les contraintes énoncées dans le sujet)
+Dans le dossier, on doit notamment avoir :
+Le type de PC (configuration, prix…) a acheter pour chaque utilisateur
+Le type et le nombre de commutateurs (nombre de ports, configuration des VLAN, configuration de ports : sur quels VLAN ils doivent être reliés…) à acheter pour interconnecter les différents PC
+Le nombre de câbles (le type, la catégorie, la longueur, le prix…) pour relier les PC aux commutateurs
+La configuration IP (quels réseaux IP utiliser pour les PC ? A vous de proposer…)
+La configuration du routeur (quelles routes mettre en place, etc.)
+La borne Wifi a acheter pour la salle de réunion
+Le lieu d’implantation des matériels (où met-on les PC, les switchs, le routeur, la borne wifi, les câbles…)
+Le respect du budget de 15000€ HT
+Etc.
+ 
+
+Bref, c’est un projet sympa qui mobilise des connaissances de SI1 et SI2. Essayez de bien tout concevoir, penser à tout… Comme un véritable architecte.
+
+
+Normalement, ca devrait faire entre 3 et 10 pages (en incluant par exemple le détail de la fiche technique des PC, de la borne, etc… ß copier-coller depuis le site d’achat -exemple le site Inmac Wstore-).

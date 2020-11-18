@@ -1,0 +1,71 @@
+Algorithme "Tri Par Comptage"
+Variables indicées : T de N cases de type numérique
+                     C de N cases de type numérique
+Variables : numérique : N, I, J, X, Nombre
+
+Début
+     /* Saisie  de  N et contrôle de saisie 
+     Afficher «  Veuillez entrer le nombre de cases du vecteur T (> à 3) »
+     Saisir N
+     Tantque N < = 3
+              Afficher «  Veuillez entrer le nombre de cases du vecteur T > à 3 »
+              Saisir N
+    FinTanque
+ 
+
+  /* Remplissage du vecteur T qui sera trié par ordre croissant
+     Pour I allant de 1 à N 
+           Afficher «  Quelle est la valeur de la case de rang », I
+	Saisir  C [I] 
+      Fpour	
+  /* Affichage du vecteur T avant le tri
+     Pour I allant de 1 à N 
+           Afficher  T [I] 
+      Fpour	
+   /* Initialisation  du tableau des compteurs 
+      Pour I allant de 1 à N 
+	      Compteur [I] <-- 0
+      Fpour
+     /* Création   du tableau des compteurs	  
+     I <-- 1
+     J <-- 1
+     Tantque J < = N
+	I <--J + 1
+	Tantque I <= N
+		  Si T[J] < T [I] Alors C[I] <-- C [I] +1
+				  Sinon C[J] <-- C[J] +1
+		  Fsi	
+          	             I <-- I+1
+           Ftantque  		
+		J <-- J +1
+     Ftantque	
+/* Affichage du vecteur C précédemment constitué
+     Pour I allant de 1 à N 
+           Afficher  C [I] 
+      Fpour	
+/*  Utilisation du  vecteur C pour trier le vecteur T
+    Nombre <-- 0
+    J <-- 1
+    TantQue  Nombre < N
+/*  Recherche du nombre dans le vecteur C
+	TantQue c[j] <> Nombre)
+	       J <-- J + 1 
+           FinTanque	
+/*  Permutations du contenu des cases dans T et C
+	X <-- T [Nombre + 1]
+	T [Nombre + 1] <-- T [J]
+	T [J] <-- X
+ 
+           X <-- C [Nombre + 1]
+	C [Nombre + 1] <-- C [J]
+	T [J] <-- X
+/*  Passage à la permutation suivante 						
+	Nombre <-- Nombre + 1
+	J <-- Nombre + 1
+    FinTantque
+
+  /* Affichage du vecteur T après le  tri
+     Pour I allant de 1 à N 
+           Afficher  T [I] 
+      Fpour	
+Fin
