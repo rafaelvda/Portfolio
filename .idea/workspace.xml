@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d88dcb82-08c7-4367-b525-3c0d1597299d" name="Default Changelist" comment="" />
+    <list default="true" id="d88dcb82-08c7-4367-b525-3c0d1597299d" name="Default Changelist" comment="Start">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1PPE.php" beforeDir="false" afterPath="$PROJECT_DIR$/1PPE.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1STAGE.php" beforeDir="false" afterPath="$PROJECT_DIR$/1STAGE.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2PPE.php" beforeDir="false" afterPath="$PROJECT_DIR$/2PPE.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2STAGE.php" beforeDir="false" afterPath="$PROJECT_DIR$/2STAGE.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VJ.php" beforeDir="false" afterPath="$PROJECT_DIR$/VJ.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VT.php" beforeDir="false" afterPath="$PROJECT_DIR$/VT.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +63,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/PPE/2eme" />
+      <recent name="$PROJECT_DIR$/PPE/1er" />
+      <recent name="$PROJECT_DIR$/Stages" />
+      <recent name="$PROJECT_DIR$/Veilles/Technologique" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,12 +89,40 @@
       <workItem from="1605548736792" duration="10430000" />
       <workItem from="1605616936385" duration="1730000" />
       <workItem from="1605651622073" duration="599000" />
-      <workItem from="1605710573975" duration="9256000" />
+      <workItem from="1605710573975" duration="9713000" />
+      <workItem from="1605807645268" duration="1130000" />
+      <workItem from="1605876101655" duration="7333000" />
+      <workItem from="1605887248460" duration="5072000" />
+      <workItem from="1605991854378" duration="6787000" />
     </task>
+    <task id="LOCAL-00001" summary="Start">
+      <created>1605727081439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605727081439</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1687" y="246" key="#CLI_Interpreters" timestamp="1605466914988">
@@ -74,11 +141,15 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="244" y="0" width="1192" height="650" key="NewPhpFileDialog/0.0.1440.900/-1920.44.1920.1080@0.0.1440.900" timestamp="1605720498498" />
-    <state x="430" y="267" width="1192" height="650" key="dock-window-1" timestamp="1605727067290">
+    <state x="320" y="174" key="Vcs.Push.Dialog.v2" timestamp="1605727091677">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="174" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605727091677" />
+    <state x="1097" y="0" width="343" height="900" key="dock-window-1" timestamp="1605991966547">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="-618" y="44" width="618" height="1080" key="dock-window-1/0.0.1440.900/-1920.44.1920.1080@-1920.44.1920.1080" timestamp="1605467213526" />
-    <state x="1076" y="0" width="364" height="900" key="dock-window-1/0.0.1440.900/-1920.44.1920.1080@0.0.1440.900" timestamp="1605720600512" />
+    <state x="1097" y="0" width="343" height="900" key="dock-window-1/0.0.1440.900/-1920.44.1920.1080@0.0.1440.900" timestamp="1605991966547" />
     <state x="996" y="0" width="444" height="900" key="dock-window-1/0.0.1440.900/1440.157.1920.1080@0.0.1440.900" timestamp="1605529473215" />
     <state x="430" y="267" width="1192" height="650" key="dock-window-1/0.0.1440.900@0.0.1440.900" timestamp="1605727067290" />
   </component>

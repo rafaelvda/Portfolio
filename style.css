@@ -1,3 +1,4 @@
+
 /* Menu */
 .menu nav{
     width: 100%;
@@ -6,43 +7,42 @@
     z-index: 1000;
 }
 
+
 /* accueil */
 .couv{
-    background: url('Images/fond.jpg');
-    background-attachment: fixed;
+    background: url('Images/fd.jpg') fixed;
     height: 100vh;
     background-size: cover;
     padding: 25px;
 }
-/*
+
+
+/* Bienvenue */
+.welcome{
+    padding-top: 80px;
+}
 .title {
     color: white;
     font-size: 70px;
     text-align: center;
-    padding: 100px;
+    padding-top: 200px;
 }
 .sub{
     color: white;
     font-size: 50px;
     text-align: center;
-}*/
-.title {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 80px;
-    letter-spacing: 2px;
 }
-.sub {
-    display: inline-block;
-    font-size: 1em;
-    font-weight: 900;
-    margin: 0;
-    line-height: 1;
+
+/* Test */
+.test{
+    background: black;
     color: white;
 }
 
 /* A Propos */
+.propos{
+    margin-bottom: 50px;
+}
 .media-body{
     text-align: justify;
     padding: 20px;
@@ -57,12 +57,46 @@
     margin-top: 20px;
 }
 
+
+/* PPE */
+.ppe{
+    padding: 25px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: antiquewhite;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.droite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.droite img{
+    width: 40%;
+}
+.gauche{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gauche img{
+    width: 40%;
+}
+
+
 /* Stages */
 .stages{
     display: flex;
     align-items: center;
     text-align: center;
     height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .uneAn{
     width: 50%;
@@ -94,15 +128,18 @@
 /* Veilles */
 .slider{
     border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .carousel-caption{
-    position: center;
+    padding-bottom: 80px;
 }
+
 
 /* Contact */
 .contact{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     /*box-shadow: 10px 10px 10px grey;*/
     border: 1px solid black;
 }
@@ -117,6 +154,7 @@
     padding-bottom: 50px;
 }
 
+
 /* PPE 1er */
 .about{
     padding: 60px;
@@ -124,6 +162,21 @@
 .test{
     padding: 50px;
 }
+
+
+/* Page Veille */
+.pageVeille{
+    background: url("Images/pl.jpg");
+    height: 100%;
+    background-size: cover;
+    padding: 50px;
+    padding-bottom: 50px;
+}
+.row{
+    padding-bottom: 50px;
+}
+
+
 
 /* footer */
 .media{
