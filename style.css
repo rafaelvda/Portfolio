@@ -130,18 +130,23 @@
     border: 1px solid black;
     margin-top: 50px;
     margin-bottom: 50px;
+    height: 100%;
 }
 .carousel-caption{
     padding-bottom: 80px;
 }
+.carousel-item img{
+    height: 100%;
+}
+
 
 
 /* Contact */
 .contact{
     display: flex;
     justify-content: space-evenly;
-    /*box-shadow: 10px 10px 10px grey;*/
-    border: 1px solid black;
+    /*box-shadow: 10px 10px 10px grey;
+    border: 1px solid black;*/
 }
 .image img{
     width: 800px;

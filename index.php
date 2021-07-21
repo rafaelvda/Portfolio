@@ -12,38 +12,22 @@
         <section class="couv">
             <div class="welcome">
                 <h1 class="title">Hello World</h1>
-                <h2 class="sub">Bienvenue sur mon portfolio</h2>
-            </div>
-        </section>
-
-        <section class="test">
-            <div class="media">
-                <img src="Images/1273B8BC-9E4C-4025-AAE4-CBB80E6995D7.JPG" class="align-self-center mr-3" alt="...">
-                <div class="media-body">
-                    <h1 class="mt-0">A PROPOS</h1>
-                    <p>Je m'appelle Rafael Mico, je suis né le 29/12/2001 et je fais actuellement un BTS SIO (Services Informatiques aux Organisations) option SLAM (Solutions Logicielles et Applications Métiers) à l'Ecole Nationale de Commerce Bessières, Paris 17, pendant la promotion 2019-2021. Je souhaite continuer mes études dans l'optique de me diriger vers le développement web. Pour se faire j'envisage de faire une école d'ingénieur.</p>
-                    <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                    <div class="btns">
-                        <div class="btn">
-                                <a href="Images/CV 2.1.pdf" download><button type="button" class="btn btn-outline-light"">Télécharger mon CV</button></a>
-                        </div>
-                        <div class="btn">
-                            <a class="nav-link" href="#contact">
-                                <button type="button" class="btn btn-outline-light">Me contacter</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <h1 class="sub">Bienvenue
+                    <span
+                            class="txt-rotate"
+                            data-period="2000"
+                            data-rotate='[ "sur mon Portfolio.", " :)"]'>
+                    </span>
+                </h1>
             </div>
         </section>
 
         <section class="propos" id="propos">
             <div class="media">
-                <img src="Images/1273B8BC-9E4C-4025-AAE4-CBB80E6995D7.JPG" class="align-self-center mr-3" alt="...">
+                <img src="Images/be2678f64053690f2f89ce88af36e6f5-sticker.png" class="align-self-center mr-3" alt="...">
                 <div class="media-body">
                     <h1 class="mt-0">A PROPOS</h1>
-                    <p>Je m'appelle Rafael Mico, je suis né le 29/12/2001 et je fais actuellement un BTS SIO (Services Informatiques aux Organisations) option SLAM (Solutions Logicielles et Applications Métiers) à l'Ecole Nationale de Commerce Bessières, Paris 17, pendant la promotion 2019-2021. Je souhaite continuer mes études dans l'optique de me diriger vers le développement web. Pour se faire j'envisage de faire une école d'ingénieur.</p>
-                    <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <p>Bonjour à tous, je m'appelle Rafael Mico, je suis né le 29-12-2001 et je termine actuellement mon BTS SIO (Services Informatiques aux Organisations) option SLAM (Solutions Logicielles et Applications Métiers) à l'Ecole Nationale de Commerce Bessières, Paris 17. À la rentrée prochaine de 2021, j'aurais la chance d'intégrer le CNAM en Licence Professionnelle Informatique Web Mobile et Business Intelligence en alternance. J'ai pour projet de me spécialiser en développement ou en data pour ainsi pouvoir continuer mes études en master.</p>
                     <div class="btns">
                         <div class="btn">
                             <a href="Images/CV 2.1.pdf" download><button type="button" class="btn btn-outline-secondary"">Télécharger mon CV</button></a>
@@ -91,14 +75,14 @@
             </div>
         </section>
 
-        <section class="slider">
+        <!--<section class="slider">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="carousel-item">
+                    <div class="carousel-item active">
                         <img src="Images/cyber-3400789_1280.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption">
                             <h1>VEILLE TECHNOLOGIQUE</h1>
@@ -107,7 +91,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="carousel-item active">
+                    <div class="carousel-item">
                         <img src="Images/gavel-3577254_1280.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption">
                             <h1>VEILLE JURIDIQUE</h1>
@@ -126,7 +110,7 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-        </section>
+        </section>-->
 
         <section class="contact" id="contact">
             <div class="image">
@@ -158,7 +142,6 @@
                         Envoyer
                     </button>
 
-                    <!--Modal
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
@@ -173,7 +156,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>-->
+                    </div>
                 </form>
             </div>
         </section>
